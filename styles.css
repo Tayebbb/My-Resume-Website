@@ -1,0 +1,116 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0; 
+} 
+body {
+    line-height: 1.6;
+    h2.title { font-size: 0; }
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+head {
+    text-align: center;
+    padding: 2em 0;
+    background-color: #333;
+    color: white;
+}
+header {
+    text-align: center;
+    padding: 2em 0;
+    background-color: #333;
+    color: white;
+}
+
+
+header h1 {
+    font-size: 2.5em;
+    background-color: #444;
+    color: white;
+    padding: 1em;
+    margin: 0; font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header h1.minimal {
+    font-size: 3em;
+}
+
+header h1.minimal span {
+    font-size: 0.8em; font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-info {
+    font-size: 16px;
+    margin: 0.5em 0;
+    color: white;
+}
+
+nav.minimal ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 1em 0;
+    border-bottom: 1px solid #ccc;
+}
+
+nav.minimal ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav.minimal ul li a {
+    color: #111;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav.minimal ul li a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+nav.minimal ul li a.active {
+    color: #007bff;
+}
+
+section {
+    padding: 5em;
+    background-color: white;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #111;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    opacity: 0.9;
+    width: 100%;
+    background-color: #444;
+    color: white; font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media screen and (max-width: 768px) {
+    nav.minimal ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .content-container {
+        padding-bottom: 60px;
+    }
+}
